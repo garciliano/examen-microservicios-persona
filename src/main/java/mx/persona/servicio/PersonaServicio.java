@@ -1,4 +1,4 @@
-package mx.persona.persona.servicio;
+package mx.persona.servicio;
 
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
@@ -8,9 +8,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mx.persona.persona.entidad.Persona;
-import mx.persona.persona.modelo.PersonaDTO;
-import mx.persona.persona.repositorio.PersonaRepositorio;
+import mx.persona.entidad.Persona;
+import mx.persona.modelo.PersonaDTO;
+import mx.persona.repositorio.PersonaRepositorio;
 
 @Service
 public class PersonaServicio {

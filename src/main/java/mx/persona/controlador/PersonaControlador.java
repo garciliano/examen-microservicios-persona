@@ -1,4 +1,4 @@
-package mx.persona.persona.controlador;
+package mx.persona.controlador;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import mx.persona.persona.modelo.PersonaDTO;
-import mx.persona.persona.servicio.PersonaServicio;
+import mx.persona.modelo.PersonaDTO;
+import mx.persona.servicio.PersonaServicio;
 
 @RestController
 @RequestMapping("/persona")

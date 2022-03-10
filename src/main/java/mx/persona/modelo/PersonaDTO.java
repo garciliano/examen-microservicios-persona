@@ -1,4 +1,4 @@
-package mx.persona.persona.modelo;
+package mx.persona.modelo;
 
 import java.time.ZonedDateTime;
 

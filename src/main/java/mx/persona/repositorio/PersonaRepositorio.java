@@ -1,4 +1,4 @@
-package mx.persona.persona.repositorio;
+package mx.persona.repositorio;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import mx.persona.persona.entidad.Persona;
+import mx.persona.entidad.Persona;
 
 @Repository
 public interface PersonaRepositorio  extends JpaRepository<Persona, Integer> {
