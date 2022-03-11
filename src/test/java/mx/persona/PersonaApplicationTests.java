@@ -1,4 +1,4 @@
-package mx.persona.persona;
+package mx.persona;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
